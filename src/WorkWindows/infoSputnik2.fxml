@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="517.0" style="-fx-background-color: Black; -fx-border-color: #101010;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.infoSputnik2Controller">
+   <children>
+      <TextField fx:id="fieldTitle" alignment="TOP_CENTER" layoutX="571.0" layoutY="208.0" prefHeight="42.0" prefWidth="197.0" style="-fx-border-color: silver; -fx-background-color: silver;" text="fffffff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fieldNumb" alignment="TOP_RIGHT" layoutX="160.0" layoutY="271.0" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="190222">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label alignment="TOP_RIGHT" layoutX="10.0" layoutY="275.0" opacity="0.55" prefHeight="20.0" prefWidth="150.0" text="Международный номер" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_RIGHT" layoutX="3.0" layoutY="300.0" opacity="0.55" prefHeight="18.0" prefWidth="149.0" text="Тип" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_RIGHT" layoutY="325.0" opacity="0.55" prefHeight="20.0" prefWidth="159.0" text="Апагей" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_RIGHT" layoutX="8.0" layoutY="345.0" opacity="0.55" prefHeight="18.0" prefWidth="149.0" text="Перегей" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_RIGHT" layoutX="9.0" layoutY="367.0" opacity="0.55" prefHeight="18.0" prefWidth="149.0" text="Скорость" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_RIGHT" layoutX="9.0" layoutY="388.0" opacity="0.55" prefHeight="18.0" prefWidth="149.0" text="Период" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldType" alignment="TOP_RIGHT" layoutX="167.0" layoutY="296.0" prefHeight="31.0" prefWidth="87.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="2000-4343">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fieldApag" alignment="TOP_RIGHT" layoutX="160.0" layoutY="319.0" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="fffffff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fieldPereg" alignment="TOP_RIGHT" layoutX="160.0" layoutY="341.0" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="fffffff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fieldSpeed" alignment="TOP_RIGHT" layoutX="167.0" layoutY="363.0" prefHeight="31.0" prefWidth="87.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="fffffff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fieldPeriod" alignment="TOP_RIGHT" layoutX="160.0" layoutY="384.0" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="fffffff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="mainView" fitHeight="333.0" fitWidth="402.0" layoutX="152.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="buttonExit" layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#on_click_exit" style="-fx-background-radius: 30; -fx-border-radius: 30;" text="X" visible="false" />
+      <TextField fx:id="fieldT" alignment="TOP_CENTER" layoutX="280.0" layoutY="16.0" prefHeight="46.0" prefWidth="184.0" style="-fx-border-color: Black; -fx-background-color: Black; -fx-text-fill: white;" text="fffffff">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
