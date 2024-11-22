@@ -98,8 +98,6 @@ public class Main extends Application {
 		tilePane.getChildren().add(r1);
 		tilePane.getChildren().add(r2);
 		tilePane.getChildren().add(r3);
-		//tilePane.setLayoutX(-700);
-		//tilePane.setLayoutY(-500);
 		tilePane.setTranslateX(-1100);
 		tilePane.setTranslateY(-600);
 		tilePane.setTranslateZ(500);
@@ -120,10 +118,7 @@ public class Main extends Application {
 		 
 		 SmartGroup world = new SmartGroup();
 		 world.getChildren().add(prepareEarth());
-		 //world.getChildren().add(new AmbientLight());
 		 world.getChildren().add(prepareSputnikY("1", 300, 0, 0));
-		// world.getChildren().add(prepareSputnikY("Второй", -303, 10, 10));
-		// world.getChildren().add(prepareSputnikY("Третий", 0, -10, 308));
 		 world.getChildren().add(prepareSputnikX("2", 0, 0, 300));
 		 world.getChildren().add(prepareSputnikX("3", 10, 0, -304));
 		 world.getChildren().add(prepareSputnikX("4", -10, 308, 0));
@@ -148,7 +143,6 @@ public class Main extends Application {
 		 
 		primaryStage.setTitle("Земля v1.0");
 		primaryStage.setScene(scene);
-		//primaryStage.setOpacity(0.1);
 		primaryStage.show();
 		
 		prepareAnimation();
@@ -157,7 +151,6 @@ public class Main extends Application {
 	
 	private Node prepareLigthSource() {
 		PointLight pointLight = new PointLight();
-	//	pointLight.getTransforms().add(new Translate(0,0,500));
 		return pointLight;
 	}
 
